@@ -1,34 +1,135 @@
-html, body {
+body{
     font-family: 'Inter', sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 0%;
+    background: #f7faf9;
 }
 
-.header {
+/* .first-slide{
+    padding: 10%;
+
+} */
+
+.navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 100px;
 }
 
-.logo h1 {
+.logo{
     color: #54BD95;
     font-weight: 600;
     font-size: 50px;
     margin: 0;
 }
 
-.nav ul {
-    list-style: none;
+.right-side{
     display: flex;
+    align-items: center;
+    gap: 300px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
     gap: 40px;
     margin: 0;
     padding: 0;
 }
 
-.nav a {
+.nav-links a{
     text-decoration: none;
+    color: #A6A6A6;
+    gap: 40px;
+}
+
+.nav-links li:first-child a{
     color: black;
+}
+
+.register{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.login{
+    text-decoration: none;
+    color: #A6A6A6;
+    font-weight: 600;
+}
+
+.signup{
+    background: #54BD95;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 6px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+}
+
+.hero-text h1{
+    font-size: 80px;
+    font-weight:700;
+    line-height:1.2;
+}
+
+.hero-text p{
+    margin: 20px 0;
+    color: black;
+    font-weight: 600;
     font-size: 18px;
-    font-weight: 500;
+    line-height: 30px;
+}
+
+.hero-buttons{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.trial{
+    background:#54BD95;
+    border:none;
+    padding:14px 28px;
+    color:white;
+    border-radius:25px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.demo{
+    text-decoration: none;
+    color:#191A15;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.hero-image img{
+    width: 701.68px;
+    height: 558.99px;
+    top: 32px;
+    left: 611px;
+}
+
+.first-footer {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+.first-footer h2 {
+    margin: 0 0 20px 0;
+    font-size: 40px;
 }
