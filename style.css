@@ -278,3 +278,107 @@ body{
     font-weight: 500;
     line-height: 30px;
 }
+
+.fourth-slide{
+    padding: 100px 80px;
+}
+
+.benefits-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+}
+
+.benefits-left{
+    width: 50%;
+}
+
+.benefits-left h2{
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+.benefit-list{
+    padding: 0;
+}
+
+.benefit-list li{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 22px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.check{
+    background:#52BDAA;
+    color:white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.benefits-right{
+    width: 30%;
+    display: flex;
+}
+
+.image-wrapper{
+    position: relative;
+}
+
+.main-img{
+    border-radius: 20px;
+}
+
+.pic-art{
+    position: absolute;
+    right: 470px;
+    top: 220px;
+    width: 60px;
+}
+
+.card{
+    position: absolute;
+    background:white;
+    padding: 14px 18px;
+    border-radius: 12px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.08);
+}
+
+.user-card{
+    top: 30px;
+    left: -40px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.user-card p{
+    color: #A6A6A6;
+}
+
+.user-card img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.income-card{
+    top: 120px;
+    right: -30px;
+}
+
+.income-card p{
+    color:#A6A6A6;
+}
+
+.success-card{
+    bottom: -25px;
+    left: -40px;
+}
