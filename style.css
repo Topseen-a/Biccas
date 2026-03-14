@@ -139,7 +139,7 @@ body{
 }
 
 .second-slide{
-    background:#f5f4fd;
+    background:#F9F8FE;
     padding: 70px 80px;
 }
 
@@ -229,7 +229,7 @@ body{
 
 .features-title{
     font-size: 50px;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .features-text{
@@ -279,8 +279,9 @@ body{
     line-height: 30px;
 }
 
-.fourth-slide{
+.fourth-slide {
     padding: 100px 80px;
+    background: radial-gradient(circle at bottom right, #dcf8f2 10%, #dcf8f2 10%, #ffffff 35%);
 }
 
 .benefits-container{
